@@ -17,23 +17,21 @@ public class Funciones1 {
 
             if (palabra.equals("")) break;
 
-            // Mostrar con primera mayúscula y resto minúscula
             String capitalizado = capitalizarString(palabra);
-            System.out.println("→ " + capitalizado);
+            System.out.println("-> " + capitalizado);
 
-            // Longitud menor
             if (primera || palabra.length() < menor.length()) {
                 menor = palabra;
             }
 
-            // Alfabéticamente primero
+        
             if (primera || palabra.compareToIgnoreCase(primeroAlfa) < 0) {
                 primeroAlfa = palabra;
             }
 
             primera = false;
 
-            // Apodo
+       
             System.out.println("Apodo: " + generarApodo(palabra));
         }
 

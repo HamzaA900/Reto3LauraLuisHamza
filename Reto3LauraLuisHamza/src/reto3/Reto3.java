@@ -32,7 +32,7 @@ public class Reto3 {
                     System.out.println("Palabra más larga: " + Funciones2.palabraLarga(frase));
 
                     // Parte 2 Alumno 3
-                   System.out.println("Números en la frase: " + Funciones3.numerosEnFrase(frase));
+                    System.out.println("Números en la frase: " + Funciones3.numerosEnFrase(frase));
                     System.out.println("Cifrado: " + Funciones3.cifradoSimple(frase));
                     System.out.println("Palabra con más vocales: " + Funciones3.palabraMasVocales(frase));
                     System.out.println("Palabra más corta: " + Funciones3.palabraCorta(frase));
