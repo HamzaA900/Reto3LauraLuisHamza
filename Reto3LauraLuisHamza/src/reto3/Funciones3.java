@@ -32,21 +32,52 @@ public class Funciones3 {
 		
 	// Muestra la palabra con más vocales.
 	public static int contarVocales(String frase) {
-		return 0;
+		int numVocales = 0;
+		String espacio=" ";
+		for (int j = 0; j < frase.length(); j++) {
+			
+		}
+
+		String vocales = "aeiouáéíóú";
+		for (int i = 0; i < frase.length(); i++) {
+			char letra = frase.charAt(i);
+			if (vocales.contains(String.valueOf(letra))) {
+				numVocales++;
+			}
+		}
+
+
 
 		}
 		
 		
 	
 	public static String palabraCorta(String frase) {
-		return frase;
+		  String palabra = "";
+	        String menor = "";
+
+	        for (int i = 0; i < frase.length(); i++) {
+	            char c = frase.charAt(i);
+
+	            if (c != ' ') {
+	                palabra += c;
+	            } else {
+	                if (menor.length()<palabra.length()) {
+	                    menor = palabra;
+	                }
+	                palabra = "";
+	            }
+	        }
+
+	        return menor;
+	
 		
 		
 	}
 	public static void main(String[] args) {
 		numerosEnFrase("h2l3 45mn");
 		System.out.println(cifradoSimple("\nhola como estas"));
-	
+		System.out.println(palabraCorta("holalorena como estas"));
 		
 	}
 
