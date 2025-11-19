@@ -10,10 +10,10 @@ Este documento detalla la distribución de tareas entre los miembros del equipo 
 | **Luis**  | Implementación de la Función 2 y Script principal del Reto 3 |
 | **Laura** | Implementación de la Función 3 |
 
-## 📂 Estructura del Proyecto (sugerida)
+## 📂 Estructura del Proyecto 
    src/
  └── reto/
-        Reto3.java
-        Funciones1.java
-        Funciones2.java
-        Funciones3.java
+        -Reto3.java
+        -Funciones1.java
+        -Funciones2.java
+        -Funciones3.java
