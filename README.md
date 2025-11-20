@@ -7,7 +7,7 @@ Este documento detalla la distribución de tareas entre los miembros del equipo 
 | Miembro | Tarea Asignada |
 |--------|----------------|
 | **Hamza** | Implementación de la Función 1 |
-| **Luis**  | Implementación de la Función 2 y Script principal del Reto 3 |
+| **Luis**  | Implementación de la Función 2 |
 | **Laura** | Implementación de la Función 3 |
 
 ## 📂 Estructura del Proyecto 
